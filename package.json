@@ -1,0 +1,26 @@
+{
+  "name": "TALLER_HT2_JuanPabloRicardoBojTunche-2025117",
+  "version": "1.0.0",
+  "description": "HT2 Taller",
+  "main": "index.js",
+ "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Juan Boj",
+  "license": "ISC",
+  "packageManager": "pnpm@11.8.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/prompt-sync": "^4.2.3",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
